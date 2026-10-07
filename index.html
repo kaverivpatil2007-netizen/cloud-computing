@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>☁ CloudTech</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Cloud Computing</h1>
+            <p>
+                Access computing resources such as servers, storage,
+                databases and applications over the Internet.
+            </p>
+
+            <button onclick="showMessage()">Explore Cloud</button>
+        </div>
+
+        <div class="cloud-icon">
+            ☁️
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Cloud Services</h2>
+        <p class="subtitle">Three major cloud service models</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🖥️</div>
+                <h3>IaaS</h3>
+                <p>
+                    Infrastructure as a Service provides virtual
+                    machines, storage and networking resources.
+                </p>
+                <button onclick="learnMore('IaaS')">Learn More</button>
+            </div>
+
+            <div class="card">
+                <div class="icon">⚙️</div>
+                <h3>PaaS</h3>
+                <p>
+                    Platform as a Service provides a platform for
+                    developing and deploying applications.
+                </p>
+                <button onclick="learnMore('PaaS')">Learn More</button>
+            </div>
+
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>SaaS</h3>
+                <p>
+                    Software as a Service provides software applications
+                    through the Internet.
+                </p>
+                <button onclick="learnMore('SaaS')">Learn More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="models" class="section models">
+        <h2>Cloud Deployment Models</h2>
+
+        <div class="model-container">
+
+            <div class="model">
+                <h3>Public Cloud</h3>
+                <p>Services are provided over the Internet to many users.</p>
+            </div>
+
+            <div class="model">
+                <h3>Private Cloud</h3>
+                <p>Cloud infrastructure is dedicated to a single organization.</p>
+            </div>
+
+            <div class="model">
+                <h3>Hybrid Cloud</h3>
+                <p>Combination of public and private cloud environments.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Why Cloud Computing?</h2>
+
+        <div class="features">
+            <div>⚡ Fast & Scalable</div>
+            <div>💰 Cost Effective</div>
+            <div>🔒 Secure</div>
+            <div>🌐 Accessible Anywhere</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 CloudTech | Cloud Computing Web Application</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
